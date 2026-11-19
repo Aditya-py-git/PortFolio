@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Aditya Pandey is a web developer focused on building useful digital experiences." />
+  <title>Aditya Pandey — Web Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;700&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="site-shell">
+    <header class="site-header" id="top">
+      <a class="wordmark" href="#top" aria-label="Aditya Pandey home">AP<span>.</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+        <a href="#work">Work</a>
+        <a href="#approach">Approach</a>
+        <a href="#about">About</a>
+        <a class="nav-contact" href="#contact">Let's talk <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero section-wrap" aria-labelledby="intro-title">
+        <div class="hero-kicker"><span class="status-dot"></span> Available for opportunities · 2024—25</div>
+        <h1 id="intro-title">I build useful <em>web experiences.</em></h1>
+        <div class="hero-lower">
+          <p class="hero-copy">A web developer with a strong foundation in DSA, C++, HTML, CSS, JavaScript, Python, React, and Node.js.</p>
+          <a class="circle-link" href="#work" aria-label="Explore selected work"><span>↓</span></a>
+        </div>
+      </section>
+
+      <section class="work section-wrap" id="work" aria-labelledby="work-title">
+        <div class="section-heading">
+          <p class="eyebrow">01 / Selected work</p>
+          <h2 id="work-title">A few things<br /><em>I've built.</em></h2>
+        </div>
+        <div class="filter-bar" role="group" aria-label="Filter projects">
+          <button class="filter-button is-active" type="button" data-filter="all">All work</button>
+          <button class="filter-button" type="button" data-filter="product">Frontend</button>
+          <button class="filter-button" type="button" data-filter="identity">Projects</button>
+          <button class="filter-button" type="button" data-filter="web">Web</button>
+        </div>
+        <div class="project-grid">
+          <article class="project-card project-card-large" data-category="product web">
+            <a class="project-image image-signal" href="#contact" aria-label="Read about Signal project">
+              <span class="project-number">01</span>
+              <span class="image-label">full stack / app</span>
+            </a>
+            <div class="project-meta"><div><h3>Full Stack Web Application</h3><p>Responsive app built with React, Node.js and MySQL.</p></div><span>2024</span></div>
+          </article>
+          <article class="project-card" data-category="identity web">
+            <a class="project-image image-moss" href="#contact" aria-label="Read about Moss project">
+              <span class="project-number">02</span>
+              <span class="image-label">frontend / portfolio</span>
+            </a>
+            <div class="project-meta"><div><h3>Portfolio Website</h3><p>Clean, responsive personal portfolio experience.</p></div><span>2024</span></div>
+          </article>
+          <article class="project-card" data-category="product">
+            <a class="project-image image-orbit" href="#contact" aria-label="Read about Orbit project">
+              <span class="project-number">03</span>
+              <span class="image-label">dsa / coding</span>
+            </a>
+            <div class="project-meta"><div><h3>Problem Solving</h3><p>Focused on DSA with C++ and algorithmic thinking.</p></div><span>2024</span></div>
+          </article>
+          <article class="project-card project-card-wide" data-category="identity web">
+            <a class="project-image image-quiet" href="#contact" aria-label="Read about Quiet Hours project">
+              <span class="project-number">04</span>
+              <span class="image-label">web dev / internship</span>
+            </a>
+            <div class="project-meta"><div><h3>Virtual Internship</h3><p>Completed one month web development internship at CodSoft.</p></div><span>2024</span></div>
+          </article>
+        </div>
+        <p class="empty-state" hidden>No work in this category yet. Try another view.</p>
+      </section>
+
+      <section class="approach section-wrap" id="approach" aria-labelledby="approach-title">
+        <div class="section-heading"><p class="eyebrow">02 / Skills</p><h2 id="approach-title">Strong in<br /><em>development &amp; logic.</em></h2></div>
+        <div class="approach-content">
+          <p class="large-copy">I’m a focused web developer with a problem-solving mindset, working across frontend, backend basics, and DSA fundamentals.</p>
+          <div class="principles">
+            <div class="principle"><span>01</span><h3>DSA with C++</h3><p>Developed strong algorithmic thinking with competitive programming and problem solving.</p></div>
+            <div class="principle"><span>02</span><h3>HTML, CSS, JavaScript</h3><p>Build responsive interfaces and clean user-facing experiences.</p></div>
+            <div class="principle"><span>03</span><h3>Python, React, Node.js</h3><p>Exploring full-stack development with practical project experience.</p></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="about section-wrap" id="about" aria-labelledby="about-title">
+        <div class="about-portrait" role="img" aria-label="Portrait of Aditya Pandey"></div>
+        <div class="about-copy"><p class="eyebrow">03 / About me</p><h2 id="about-title">Developer,<br /><em>learner,</em> builder.</h2><p>I’m Aditya Pandey, a B.Tech CSE-AI student at UIET, Kanpur, with a strong interest in web development and software engineering. I’ve built practical projects, solved technical problems, and completed a virtual internship in web development.</p><a class="text-link" href="mailto:adityapandey0110@gmail.com">More about me <span>↗</span></a></div>
+      </section>
+
+      <section class="contact section-wrap" id="contact" aria-labelledby="contact-title">
+        <p class="eyebrow">04 / Contact</p><h2 id="contact-title">Let's build<br /><em>something useful.</em></h2>
+        <a class="email-link" href="mailto:adityapandey0110@gmail.com">adityapandey0110@gmail.com <span>↗</span></a>
+        <div class="contact-footer"><span>© 2024 Aditya Pandey</span><div><a href="#top">Back to top ↑</a><a href="https://www.linkedin.com/in/aditya-pandey-6b2965358?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noreferrer">LinkedIn ↗</a></div></div>
+      </section>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
